@@ -108,4 +108,14 @@ Ver o exportar el cuadrante final
 
 🔐 Sistema de login para administradores
 
-🧮 Algoritmos avanzados basados en antigüedad o preferencias
+🧮 Algoritmos avanzados basados en antigüedad o preferencias.
+
+## ✨ Galería
+
+<img width="602" height="168" alt="crear-camarero" src="https://github.com/user-attachments/assets/01db9066-598c-4eef-bc18-733c46f9ef39" />
+<img width="770" height="497" alt="consultar-disponibilidad" src="https://github.com/user-attachments/assets/02bbf771-816f-4dae-914a-cc984dbc113b" />
+<img width="598" height="400" alt="login" src="https://github.com/user-attachments/assets/b12463fc-e3d6-40c4-8e1a-bb6e50460e1e" />
+<img width="1011" height="643" alt="Horario-creado-aleatorio" src="https://github.com/user-attachments/assets/e2ad41be-5af3-4674-a250-3817ac0beea8" />
+<img width="1244" height="148" alt="Horario creado" src="https://github.com/user-attachments/assets/db6646da-97fd-4d04-9149-a891baf85ae7" />
+<img width="602" height="402" alt="home1" src="https://github.com/user-attachments/assets/7cfc8885-07ec-443b-b3ae-3c1ee8c03cf3" />
+<img width="599" height="399" alt="crear-disponibilidad" src="https://github.com/user-attachments/assets/026a524b-68f7-49ab-830b-1d4224e8ee6c" />
