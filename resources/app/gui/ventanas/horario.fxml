@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="784.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.ventanas.HorarioController">
+   <children>
+      <TableView fx:id="tabla" layoutX="6.0" layoutY="100.0" onMouseClicked="#seleccionar" prefHeight="408.0" prefWidth="856.0">
+        <columns>
+          <TableColumn fx:id="columnLM" prefWidth="43.0" text="LM" />
+          <TableColumn fx:id="columnLT" prefWidth="53.0" text="LT" />
+            <TableColumn fx:id="columnMM" prefWidth="51.0" text="MM" />
+            <TableColumn fx:id="columnMT" prefWidth="62.0" text="MT" />
+            <TableColumn fx:id="columnXM" prefWidth="67.0" text="XM" />
+            <TableColumn fx:id="columnXT" prefWidth="55.0" text="XT" />
+            <TableColumn fx:id="columnJM" prefWidth="57.0" text="JM" />
+            <TableColumn fx:id="columnJT" prefWidth="54.0" text="JT" />
+            <TableColumn fx:id="columnVM" prefWidth="39.0" text="VM" />
+            <TableColumn fx:id="columnVT" prefWidth="36.0" text="VT" />
+            <TableColumn fx:id="columnSM" minWidth="7.0" prefWidth="36.0" text="SM" />
+            <TableColumn fx:id="columnST" prefWidth="57.0" text="ST" />
+            <TableColumn fx:id="columnDM" prefWidth="83.0" text="DM" />
+            <TableColumn fx:id="columnDT" prefWidth="83.0" text="DT" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnCrear" layoutX="396.0" layoutY="523.0" mnemonicParsing="false" onAction="#crearHorario" text="Crear" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+.menu-item:hover {
+    -fx-background-color: green;
+}
+.body{
+    -fx-background-image: url(../app/gui/image/logointro.jpg);
+}

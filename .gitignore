@@ -1,0 +1,82 @@
+# ============================
+#       JAVA + JAVAFX
+# ============================
+
+# Compilación y binarios
+/out/
+/bin/
+/build/
+/target/
+*.class
+
+# Cache de JavaFX
+*/**/module-info.class
+
+# Paquetes
+*.jar
+*.war
+*.ear
+
+# ============================
+#           IDEs
+# ============================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ============================
+#           MAVEN / GRADLE
+# ============================
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# ============================
+#           MONGODB
+# ============================
+
+# Dumps
+dump/
+
+# Claves o certificados
+*.pem
+*.key
+
+# Archivos de configuración local
+.env
+.env.local
+
+# ============================
+#       TEMPORAL / SISTEMA
+# ============================
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+*.lock
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

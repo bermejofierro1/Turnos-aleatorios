@@ -1,0 +1,62 @@
+/* Estilo general para el contenedor principal */
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para el contenedor del formulario de inicio de sesión */
+.loginPane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.5, 0.0, 0.0);
+}
+
+/* Estilo para los campos de texto */
+.txtUsuario, .txtPass {
+    -fx-prompt-text-fill: #999999;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+}
+
+/* Estilo para los botones */
+.btnEntrar {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0.0, 0.0);
+}
+
+.btnEntrar:hover {
+    -fx-background-color: #1976D2;
+}
+
+.btnEntrar:pressed {
+    -fx-background-color: #1565C0;
+}
+
+/* Estilo para los botones secundarios */
+.btnRegistro {
+    -fx-background-color: #666666;
+    -fx-text-fill: #f0f0f0;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    
+}
+
+.btnRegistro:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.btnRegistro:pressed {
+    -fx-background-color: #d0d0d0;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="body" fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.gui.ventanas.BienvenidaController">
+   <top>
+      <MenuBar id="menu-item" fx:id="menuBar" onMouseEntered="#cambiarColor" stylesheets="@../../../css/style.css" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="menuNuevo" mnemonicParsing="false" text="Nuevo">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#irAConsulta" text="Consultar" />
+                  <MenuItem mnemonicParsing="false" text="Modificar" />
+                  <MenuItem mnemonicParsing="false" onAction="#irACrear" text="Disponibilidad" />
+                  <MenuItem mnemonicParsing="false" onAction="#crearCamarero" text="Nuevo Camarero" />
+                  <MenuItem mnemonicParsing="false" onAction="#creaHorario" text="CrearHorario" />
+            </items>
+          </Menu>
+          <Menu fx:id="menuApp" mnemonicParsing="false" text="App">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#salir" text="Salir" />
+                  <MenuItem mnemonicParsing="false" onAction="#cerrarSesion" text="Cerrar Sesión" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../image/pan.jpg" />
+         </image>
+      </ImageView>
+   </center>
+   <left>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../image/tomate.jpg" />
+         </image>
+      </ImageView>
+   </left>
+   <right>
+      <ImageView fitHeight="159.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../image/terr.jpg" />
+         </image>
+      </ImageView>
+   </right>
+</BorderPane>
